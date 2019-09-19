@@ -94,9 +94,9 @@ module.exports =
 /******/ ({
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
-/*!***********************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
-  \***********************************************************************************************************/
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -105,9 +105,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "co
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
-  \********************************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -116,9 +116,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
-/*!********************************************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
-  \********************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -127,9 +127,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/promise.js":
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
-  \*****************************************************************************************************/
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/promise.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -138,9 +138,9 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js":
-/*!**************************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js ***!
-  \**************************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -187,9 +187,9 @@ module.exports = _asyncToGenerator;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/extends.js":
-/*!*****************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/helpers/extends.js ***!
-  \*****************************************************************************************************/
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/extends.js ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -218,9 +218,9 @@ module.exports = _extends;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!*******************************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \*******************************************************************************************************************/
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -235,9 +235,9 @@ module.exports = _interopRequireDefault;
 /***/ }),
 
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js":
-/*!********************************************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
-  \********************************************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -275,9 +275,9 @@ module.exports = _interopRequireWildcard;
 /***/ }),
 
 /***/ "./node_modules/next/dist/client/router.js":
-/*!**************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/next/dist/client/router.js ***!
-  \**************************************************************************************/
+/*!*************************************************!*\
+  !*** ./node_modules/next/dist/client/router.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -441,9 +441,9 @@ function makePublicRouterInstance(router) {
 /***/ }),
 
 /***/ "./node_modules/next/dist/client/with-router.js":
-/*!*******************************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/next/dist/client/with-router.js ***!
-  \*******************************************************************************************/
+/*!******************************************************!*\
+  !*** ./node_modules/next/dist/client/with-router.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -494,9 +494,9 @@ function withRouter(ComposedComponent) {
 /***/ }),
 
 /***/ "./node_modules/next/dist/pages/_app.js":
-/*!***********************************************************************************!*\
-  !*** C:/Users/dipes/Desktop/practice/nextjs/node_modules/next/dist/pages/_app.js ***!
-  \***********************************************************************************/
+/*!**********************************************!*\
+  !*** ./node_modules/next/dist/pages/_app.js ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

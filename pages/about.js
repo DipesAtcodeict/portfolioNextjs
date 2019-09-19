@@ -1,7 +1,10 @@
+import BaseLayout from '../componenets/layouts/BaseLayout';
 
 const About = () => {
     return(
-        <div>About me!</div>
+        <BaseLayout>
+             About me!
+        </BaseLayout>
     );
 }
 
