@@ -5,7 +5,7 @@ class Cv extends React.Component {
     render() {
         return (
             <BaseLayout>
-                cv
+                <h1>Here is my CV</h1>
             </BaseLayout>
         )
     }

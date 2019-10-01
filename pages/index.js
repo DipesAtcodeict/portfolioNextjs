@@ -2,6 +2,7 @@ import React from "react";
 import BaseLayout from '../componenets/layouts/BaseLayout';
 
 class Index extends React.Component {
+
   render() {
     return (
       <BaseLayout>

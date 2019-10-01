@@ -105,25 +105,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shared_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/Header */ "./componenets/shared/Header.js");
-var _jsxFileName = "C:\\Users\\dipes\\Desktop\\practice\\nextjs\\componenets\\layouts\\BaseLayout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 const BaseLayout = props => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: undefined
-  }, __jsx(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: undefined
-  }), props.children);
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_shared_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), props.children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BaseLayout);
@@ -143,85 +130,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\dipes\\Desktop\\practice\\nextjs\\componenets\\shared\\Header.js";
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../routes */ "./routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/main.scss */ "./styles/main.scss");
+/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_3__);
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
 class Header extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
-    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      },
-      __self: this
-    }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/about",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/portfolios",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15
-      },
-      __self: this
-    }, "Portolios")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blogs",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18
-      },
-      __self: this
-    }, "Blogs")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/cv",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, __jsx("a", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21
-      },
-      __self: this
-    }, "CV")));
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/"
+    }, __jsx("a", null, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/about"
+    }, __jsx("a", null, "About")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/portfolios"
+    }, __jsx("a", null, "Portolios")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/blogs"
+    }, __jsx("a", null, "Blogs")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/cv"
+    }, __jsx("a", null, "CV")), __jsx(_routes__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      route: "/test/1"
+    }, "Test 1"));
   }
 
 }
@@ -906,26 +839,78 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _componenets_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../componenets/layouts/BaseLayout */ "./componenets/layouts/BaseLayout.js");
-var _jsxFileName = "C:\\Users\\dipes\\Desktop\\practice\\nextjs\\pages\\portfolios.js";
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _componenets_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../componenets/layouts/BaseLayout */ "./componenets/layouts/BaseLayout.js");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+
 class Portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  static async getInitialProps() {
+    let posts = [];
+
+    try {
+      const response = await axios__WEBPACK_IMPORTED_MODULE_1___default.a.get("https://jsonplaceholder.typicode.com/posts");
+      posts = response.data;
+    } catch (err) {
+      console.log(err);
+    }
+
+    return {
+      posts: posts.splice(0, 10)
+    };
+  }
+
+  renderPostTitle(posts) {
+    return posts.map(post => {
+      return __jsx("li", {
+        key: post.id
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        as: `/portfolio/${post.id}`,
+        href: "/portfolio/[id]"
+      }, __jsx("a", null, post.title)));
+    });
+  }
+
   render() {
-    return __jsx(_componenets_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 7
-      },
-      __self: this
-    }, "portfoilios");
+    const {
+      posts
+    } = this.props;
+    return __jsx(_componenets_layouts_BaseLayout__WEBPACK_IMPORTED_MODULE_3__["default"], null, __jsx("h1", null, "I am portfolio page"), __jsx("ul", null, this.renderPostTitle(posts)));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolios);
+
+/***/ }),
+
+/***/ "./routes.js":
+/*!*******************!*\
+  !*** ./routes.js ***!
+  \*******************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+const routes = __webpack_require__(/*! next-routes */ "next-routes");
+
+module.exports = routes().add('test', '/test/:id');
+
+/***/ }),
+
+/***/ "./styles/main.scss":
+/*!**************************!*\
+  !*** ./styles/main.scss ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
@@ -938,6 +923,17 @@ class Portfolios extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 
 module.exports = __webpack_require__(/*! C:\Users\dipes\Desktop\practice\nextjs\pages\portfolios.js */"./pages/portfolios.js");
 
+
+/***/ }),
+
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("axios");
 
 /***/ }),
 
@@ -982,6 +978,17 @@ module.exports = require("core-js/library/fn/object/define-property");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/get-own-property-descriptor");
+
+/***/ }),
+
+/***/ "next-routes":
+/*!******************************!*\
+  !*** external "next-routes" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-routes");
 
 /***/ }),
 
